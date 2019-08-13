@@ -99,12 +99,14 @@ class Bitbull_Tooso_Model_Search
             $i = 1;
             $productIds = $this->_getIdsBySkus($skus);
 
-            foreach ($productIds as $sku => $productId) {
-                $products[] = array(
-                    'sku' => $sku,
-                    'product_id' => $productId,
-                    'relevance' => $i
-                );
+            foreach ($skus as $sku) {
+                if (isset($productIds[$sku])) {
+                    $products[] = array(
+                        'sku' => $sku,
+                        'product_id' => $productIds[$sku],
+                        'relevance' => $i
+                    );
+                }
 
                 $i++;
             }
