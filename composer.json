@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Bitbull_Tooso",
+    "name": "openmage-module-fostering\/bitbull_tooso",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension replaces the default search of Magento with a typo-tolerant, fast & relevant search experience backed by Tooso.",
     "authors": [

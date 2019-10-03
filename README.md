@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This extension replaces the default search of Magento with a typo-tolerant, fast & relevant search experience backed by Tooso.
