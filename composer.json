@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Bitbull_Tooso",
+    "name": "OpenMageModuleFostering\/Bitbull_Tooso",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "This extension replaces the default search of Magento with a typo-tolerant, fast & relevant search experience backed by Tooso.",
     "authors": [
-    {
-        "name": "Tooso Inc.",
-        "email": "ciro.greco@tooso.ai"
-    }
-],
+        {
+            "name": "Tooso Inc.",
+            "email": "ciro.greco@tooso.ai"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
